@@ -1,5 +1,13 @@
 # View Wireframes
 
+## Create Snippet
+![create-snippet]
+
+[create-snippet]: ./wireframes/CodeSvenCreate.png
+
+
+
+
 ## New User
 ![new-user]
 
