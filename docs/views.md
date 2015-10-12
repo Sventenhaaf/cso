@@ -3,32 +3,24 @@
 ## Create Snippet
 ![create-snippet]
 
+## Explore / Examples
+![explore]
+
+## Watch Users Snippet
+![watch-snippet]
+
+## Sign Up, Log In, Save Snippet
+![signup]
+![login]
+![save-snippet]
+
+## Component Heirarchy (of main create snippet frame)
+![heirarchy]
+
 [create-snippet]: ./wireframes/CodeSvenCreate.png
-
-
-
-
-## New User
-![new-user]
-
-## New Session
-![new-session]
-
-## NotesIndex / NoteIndexItem / NoteForm
-![notes]
-
-## NotebooksIndex / NotebookIndexItem
-![notebooks]
-
-## NoteBookForm
-![notebook-form]
-
-## Component Heirarchy
-![component-heirarchy]
-
-[new-user]: ./wireframes/new_user.png
-[new-session]: ./wireframes/new_session.png
-[notes]: ./wireframes/root_notes.png
-[notebooks]: ./wireframes/root_notebooks.png
-[notebook-form]: ./wireframes/notebook_form.png
-[component-heirarchy]: ./wireframes/component_heirarchy.png
+[explore]: ./wireframes/CodeSvenExplore.png
+[watch-snippet]: ./wireframes/CodeSvenWatch.png
+[signup]: ./wireframes/CodeSvenSignUp.png
+[login]: ./wireframes/CodeSvenLogIn.png
+[save-snippet]: ./wireframes/CodeSvenSave.png
+[heirarchy]: ./wireframes/CodeSvenHeirarchy.png
