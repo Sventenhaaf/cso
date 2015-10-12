@@ -8,6 +8,8 @@ Software Tools in Javascript
 
 CodeSven is a tool to play around with Javascript in the browser. It is inspired by CodePen / Repl.it
 
+Test
+
 CodeSven allows users to:
 
 - [ ] Create and read javascript snippets
@@ -44,6 +46,6 @@ This is the more unique part of my app, and I want to make sure to make this wor
 
 ### Phase 4: Syntax Highlighting (1 day)
 
-Using something like [CodeMirror][codemirror] or [Highlight][highlight], 
+Using something like [CodeMirror][codemirror] or [Highlight][highlight],
 [codemirror]: https://codemirror.net/
 [highlight]: https://highlightjs.org/
