@@ -52,6 +52,16 @@ Using something like [CodeMirror][codemirror] or [Highlight][highlight], I would
 [codemirror]: https://codemirror.net/
 [highlight]: https://highlightjs.org/
 
-### Phase 5: Styling and extras (1.5 days)
+### Phase 5: Styling (1.5 days)
 
 In the last days I want to make sure the app looks great. If there is time left, I want to add a 'like' feature, so that users can like the snippets of other users.
+
+### Extras
+
+If time allows, I want to add the following to CodeSven:
+
+- [ ] Users like other users their Snippets
+- [ ] Users can tag their snippets during save (and later on)
+- [ ] Add an HTML editor that combines with the JS
+- [ ] Add a CSS editor that combines with JS and HTML
+- [ ] Add a fork functionality, so that users can fork their snippets and add to the code
