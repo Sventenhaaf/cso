@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Sndbxx.com | The Collaboration Tool for Non-Software Engineers</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section id="start">
+					<div class="layer">
+						<h1>Sndbxx</h1>
+						<h4>Collaboration Tool for non-software Engineers</h4>
+						<!-- <p>IMPORTANT: Mockup Examples - please open them and play with the sliders!</p> -->
+						<p>
+							<p>Mockup 1 <a href="https://jsfiddle.net/sventenhaaf/gh1xguhc/embedded/result/">Hinged Beam Deflection</a> </p>
+							<!-- <br> -->
+							<p>Mockup 2 <a href="https://jsfiddle.net/sventenhaaf/0x6mbs7r/embedded/result/">Clamped Beam Deflection</a> </p>
+						</p>
+						</div>
+				</section>
+
+				<section id="second">
+					<div class="layer">
+						<h2>Background</h2>
+						<p>- Non-Software Engineering exists of a lot of repetitive work</p>
+						<p>- Work exist of smaller sub-problems that are easy to solve</p>
+						<p>- Yet, there is no place to collaborate on these problems</p>
+					</div>
+				</section>
+
+				<section id="third">
+					<div class="layer">
+						<h2>Idea</h2>
+						<p id="str">- Sndbxx is much like Codepen/JSFiddle</p>
+						<p>- Enabling Software Tools for Non-Software Problems</p>
+						<p>- Providing all required backend and libraries</p>
+						<br>
+						<h2>Business Model</h2>
+						<p>- Using and editing is free</p>
+						<p>- Revenue comes from private development for proprietary tools</p>
+						<p>- Or by connecting Engineers to the vendors they need using <a href="https://jsfiddle.net/sventenhaaf/gh1xguhc/embedded/result/">this tool</a></p>
+						<p>- Alternatively, revenues may come from ads, but NEVER in an annoying way</p>
+					</div>
+				</section>
+				<section id="fourth">
+					<div class="layer">
+					<h2>Approach</h2>
+					<small>
+						We want to start small and specific. We know Structural Engineering and we can build a product that Structual Engineers will love.
+						But we want to build our platform in a generic way so that it is easy to add libraries and support for other fields later on.
+						Some thought on the fields of play that we think can use a tool like ours:
+					</small><br><br><br>
+					<small>- Structural Engineering</small><br>
+					<small>- Control Engineering</small><br>
+					<small>- Charts and Statistics (yes, quite some competition, but no one with a similar business model)</small><br>
+					<small>- Chemical Engineering</small><br>
+					<small>- Electrical Engineering</small><br>
+					<small>- Non-Engineering fields </small><br>
+					<small>  ...</small>
+				</div>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="https://jsfiddle.net/sventenhaaf/gh1xguhc/embedded/result/">Don't forget the mockup!</a> <br>
+						- <a href="https://jsfiddle.net/sventenhaaf/0x6mbs7r/embedded/result/">And this one</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
